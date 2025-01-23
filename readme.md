@@ -1,9 +1,11 @@
 How to install MLFlow with Docker
 
 ```
-docker build -t mlflow-server .
+docker compose up -d
 ```
 
-```
-docker run -p 5000:5000 mlflow-server
-```
+you can go to http://localhost:5000/ for MLFlow UI
+you can go to http://localhost:8900/buckets for Minio Object Store
+you can go to http://localhost:8888 for jupyterlab notebook
+
+credit to https://blog.vidio.com/create-ml-workflows-with-mlflow-and-docker/ for the installation
