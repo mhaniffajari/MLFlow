@@ -1,8 +1,22 @@
-How to install MLFlow with Docker
+how ##How to install MLFlow with Docker
 
 ```
 docker compose up -d
 ```
+to see list folder in Docker Image
+
+fist you need to know container id or container name
+```
+docker ps
+```
+
+then you can enter the cmd
+```
+docker exec -it <container_id_or_name> /bin/bash
+
+```
+
+
 
 you can go to http://localhost:5000/ for MLFlow UI
 you can go to http://localhost:8900/buckets for Minio Object Store
