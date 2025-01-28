@@ -1,9 +1,9 @@
-how ##How to install MLFlow with Docker
+ ## How to install MLFlow with Docker
 
 ```
 docker compose up -d
 ```
-to see list folder in Docker Image
+## To Enter CMD in Docker Container
 
 fist you need to know container id or container name
 ```
